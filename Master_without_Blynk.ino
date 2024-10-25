@@ -1,4 +1,8 @@
 // This is the final code for the Master without Blynk
+// Just upload this code to the master ESP for receiving information from the slave and displaying it on the master's LCD
+
+// just Change the wifi credentials!
+
 #include <ESP8266WiFi.h>
 #include <espnow.h>
 #include <Wire.h>
