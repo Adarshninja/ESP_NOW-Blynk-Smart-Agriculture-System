@@ -1,13 +1,14 @@
 // This is the final code for the Slave with Blynk integration
+// change WiFi credentials according to yours 
 #include <ESP8266WiFi.h>
 #include <espnow.h>
 #include <DHT.h>
 // Include Blynk library
 
 // Blynk template ID, template name, and authentication token
-#define BLYNK_TEMPLATE_ID "TMPL3m-u9fOWe"
-#define BLYNK_TEMPLATE_NAME "Smart Irrigation"
-#define BLYNK_AUTH_TOKEN "haT0k2igSSwIo80LJ9ROzDCVVgqrwVT-" // Replace with your Blynk Auth Token
+#define BLYNK_TEMPLATE_ID "xxxxxxxxx"
+#define BLYNK_TEMPLATE_NAME "xxxxxxxxxxxxxx"
+#define BLYNK_AUTH_TOKEN "xxxxxxxxxxxxxxxxxxx" // Replace with your Blynk Auth Token
 
 #include <BlynkSimpleEsp8266.h> 
 
