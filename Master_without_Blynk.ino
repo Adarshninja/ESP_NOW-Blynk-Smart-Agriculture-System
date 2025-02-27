@@ -36,7 +36,7 @@ void setup() {
   Serial.begin(115200);
 
   // Set up Wi-Fi connection
-  WiFi.begin("iot", "00000000"); // Wi-Fi SSID and Password
+  WiFi.begin("iot", "00000000"); // Wi-Fi SSID and Password, change according to your's!
   // Wait for the Wi-Fi to connect
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
