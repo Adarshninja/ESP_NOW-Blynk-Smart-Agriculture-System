@@ -12,7 +12,7 @@
 #define RELAY_PIN D5        // Pin connected to relay (for water pump control)
 
 // Initialize the LCD with I2C address 0x27 (adjust if necessary)
-LiquidCrystal_PCF8574 lcd(0x27);
+LiquidCrystal_PCF8574 lcd(0x27); // only connect 16x2 LCD display with I2C Connector.
 
 // Structure to receive data from the slave
 typedef struct struct_message {
